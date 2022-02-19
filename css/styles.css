@@ -576,6 +576,9 @@ border: 2px solid  #212121;
 margin-right: 5px;}
 .policy-check:checked + .check-text .policy-icon {border: none;
 background-color: var(--accent-color);}
+
+.policy-icon:hover, .policy-icon:focus {border: solid var(--accent-color);}
+
 .policy-text {text-decoration-line:underline;
 color: var(--accent-color);}
 .policy-link {color: var(--accent-color);
@@ -588,7 +591,7 @@ justify-content: center;
 display: block;
 border-radius: 4px;
 }
-.policy-check:hover, .policy-check:focus {fill:var(--accent-color)  }
+
 .btn:hover, .btn:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);}
 
 .is-hidden {opacity:0;
