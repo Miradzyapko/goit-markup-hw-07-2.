@@ -397,8 +397,7 @@ flex-direction: column;
     transition: color var(--transition), background-color var(--transition), box-shadow var(--transition); }
 .icon-footer {fill: var(--first-color);
 margin-left: 10px;
-top:  5%;
-transform:translateY(-5%);
+
 display: inline-block;
 
 }
