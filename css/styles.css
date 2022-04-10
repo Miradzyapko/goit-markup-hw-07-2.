@@ -158,10 +158,10 @@ margin-bottom: 50px;}
 .button-item {display: inline-block;
 }
 .button-item:not(:last-child) {margin-right: 8px;}
-.button-accent:hover, .button-accent:focus {color:var(--btn-color);box-shadow: 0px 4px 4px 0px #00000026;
+.button-accent:hover, .button-accent:focus {color:var(--btn-color);
 background-color: var(--accent-color);
-box-shadow: 0px 4px 4px 0px #00000026;
-border-radius: 4px;
+
+
 
 
 }
@@ -175,6 +175,8 @@ letter-spacing: 0.06em;
 text-align: center;
 padding: 10px 32px;
 transition: color, background-color  var(--transition);
+box-shadow: 0px 4px 4px 0px #00000026;
+border-radius: 4px;
 }
 
 
@@ -582,16 +584,13 @@ background-color: var(--accent-color);}
 color: var(--accent-color);}
 .policy-link {color: var(--accent-color);
 margin-left: 5px;}
-.btn {margin: 0 auto;
-width: 200px;
-height: 50px;
-align-items: center;
-justify-content: center;
+.modal-btn {margin: 0 auto;
+
 display: block;
-border-radius: 4px;
+
 }
 
-.btn:hover, .btn:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);}
+.modal-btn:hover, .modal-btn:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);}
 
 .is-hidden {opacity:0;
     pointer-events: none;
