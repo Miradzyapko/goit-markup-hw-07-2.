@@ -3,7 +3,7 @@
 :root {
 --color-primery:#757575;
 --btn-color:#FFFFFF;
---accent-color:#2196F3;
+--accent-color:#188CE8;
 --first-color: #FFFFFF;
 --color-second: #212121;
 --bg-btn-color-primary:#2196F3;
@@ -174,9 +174,10 @@ line-height:1.88 ;
 letter-spacing: 0.06em;
 text-align: center;
 padding: 10px 32px;
-transition: color, background-color  var(--transition);
+transition: color var(--transition), background-color  var(--transition);
 box-shadow: 0px 4px 4px 0px #00000026;
 border-radius: 4px;
+min-width: 200px;
 }
 
 
@@ -386,7 +387,7 @@ justify-content: center;
 margin-left: 12px;
 
 }
-.btn-footer {position: absolute;}
+.footer-btn {display: flex;}
 
 .footer-input {width: 358px;
 height: 50px;
@@ -394,13 +395,18 @@ padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 16px;
 flex-direction: column;
+margin-right: 12px;
+background-color: transparent;
+color:var(--footer-color);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
+.footer-form {display: flex;}
 .btn-footer:hover, .btn-footer:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: color var(--transition), background-color var(--transition), box-shadow var(--transition); }
 .icon-footer {fill: var(--first-color);
 margin-left: 10px;
 
-display: inline-block;
+
 
 }
 
@@ -567,7 +573,8 @@ resize: none;
     display: flex;
 flex-direction: column;
 }
-
+.form-policy {margin-bottom: 30px;
+text-align: center;}
 
 
 
