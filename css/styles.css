@@ -209,13 +209,13 @@ height:70px;
 }
 .future-container { 
 height: 120px;
-align-content: center;
+align-items: center;
 justify-content: center;
 border-radius: 4px;
 display: flex;
 background: var(--bg-color-team);
 margin-bottom: 30px;
-padding: 25px;
+
 }
 
 
@@ -248,9 +248,8 @@ background-color:var(--bgcolor-menu-work);
 color: var(--first-color);
 height:70px ;
 width: 100%;
-align-content: center;
-padding-top:27px;
-padding-bottom: 27px;
+align-items: center;
+
 }
 .menu-title-text {line-height: 1.17;
 text-transform: uppercase;
@@ -575,16 +574,16 @@ flex-direction: column;
 }
 .form-policy {margin-bottom: 30px;
 text-align: center;}
-
+.policy-check:focus {
+    border: solid var(--accent-color);
+}
 
 
 .policy-icon {fill: transparent;
 border-radius: 2px;
 border: 2px solid  #212121;
 margin-right: 5px;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-.policy-icon:focus {
-    border: solid var(--accent-color);
-}
+
 .policy-check:checked + .check-text .policy-icon {border: none;
 background-color: var(--accent-color);}
 
