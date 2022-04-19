@@ -404,7 +404,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     transition: color var(--transition), background-color var(--transition), box-shadow var(--transition); }
 .icon-footer {fill: var(--first-color);
 margin-left: 10px;
-
+display: flex;
+align-items: center;
 
 
 }
@@ -574,25 +575,25 @@ flex-direction: column;
 }
 .form-policy {margin-bottom: 30px;
 text-align: center;}
-.policy-check:focus {
-    border: solid var(--accent-color);
-}
 
 
+.coment-form {margin-bottom: 20px;}
 .policy-icon {fill: transparent;
 border-radius: 2px;
 border: 2px solid  #212121;
-margin-right: 5px;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+margin-right: 5px;
+font-weight: 400;}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 
 .policy-check:checked + .check-text .policy-icon {border: none;
 background-color: var(--accent-color);}
 
 .policy-icon:hover  {border: solid var(--accent-color);}
-
+.policy-check:focus +.check-text {outline: none; border: solid var(--accent-color);}
 .policy-text {text-decoration-line:underline;
 color: var(--accent-color);}
 .policy-link {color: var(--accent-color);
-margin-left: 5px;}
+margin-left: 5px;
+font-weight: 400;}
 .modal-btn {margin: 0 auto;
 
 display: block;
