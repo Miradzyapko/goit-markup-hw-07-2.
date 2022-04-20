@@ -81,15 +81,15 @@ max-width: 1600px;
 margin-left: auto;
 margin-right:auto;
 }
- .section {padding-top: 94px;
-padding-bottom:94px ;}
+
 .card-set {display: flex;
 flex-wrap: wrap;
 margin-left:-30px;
 margin-top:-30px;  
 }
-.about {padding-bottom: 0;}
-
+.about {padding-bottom: 94px;
+padding-top: 94px;}
+.work {padding-bottom: 94px;}
 .header .logo {
 margin-right: 93px;
 }
@@ -256,7 +256,9 @@ text-transform: uppercase;
 font-size: 14px;
 letter-spacing: 0.03em;}
 
-.team {background-color: var(--bg-color-team);}
+.team {background-color: var(--bg-color-team);
+padding-top: 94px;
+padding-bottom: 94px;}
 
 .team-item {flex-basis: calc(100% / 4 - 30px);
 background-color: var(--first-color);
@@ -309,7 +311,8 @@ height: 20px;}
 .social-link:hover,.social-link:focus {background-color: var(--accent-color);
 color:var(--first-color);}
 .footer .social-icon {color: var(--first-color);}
-
+.clients {padding-top: 94px;
+padding-bottom: 94px;}
 .client-item {flex-basis: calc(100% / 6 - 30px);
 }
 .client-link {display: flex;
@@ -363,7 +366,7 @@ align-items: baseline;}
 align-items: baseline; justify-content: center;
 }
 .footer-cont-item:first-child {margin-right: 70px;}
-.footer-wrap {margin-left: 93px;}
+.footer-wrap:not(:last-child) {margin-right: 93px;}
 
 
 .footer-title {font-size: 14px;
@@ -386,7 +389,8 @@ justify-content: center;
 margin-left: 12px;
 
 }
-.footer-btn {display: flex;}
+.footer-btn {display: flex;
+}
 
 .footer-input {width: 358px;
 height: 50px;
@@ -523,7 +527,7 @@ right:8px;
 .modal-close:hover, .modal-close:focus {fill: var(--accent-color);
 transition: fill var(--transition);}
 
-.input-wrap:focus-within, .input-wrap:hover {fill: var(--accent-color); }
+.input-wrap:focus-within, .input-wrap:hover {fill: var(--accent-color); transition: fill var(--transition); }
 .form-input:focus-within, .form-input:hover {border-color:var(--accent-color);}
 
     
@@ -587,8 +591,9 @@ font-weight: 400;}
 .policy-check:checked + .check-text .policy-icon {border: none;
 background-color: var(--accent-color);}
 
-.policy-icon:hover  {border: solid var(--accent-color);}
-.policy-check:focus +.check-text {outline: none; border: solid var(--accent-color);}
+.policy-icon:hover  {border: solid var(--accent-color);
+transition: fill var(--transition);}
+.policy-check:focus +.check-text span {border: solid var(--accent-color);}
 .policy-text {text-decoration-line:underline;
 color: var(--accent-color);}
 .policy-link {color: var(--accent-color);
