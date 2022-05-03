@@ -527,7 +527,7 @@ text-align: center;
 .form-input:focus,
 .form-input:hover {
     border-color: var(--accent-color);
-    transition: fill var(--transition),border-color var(--transition);
+   
 
 }
 .modal-close { width: 30px;
@@ -556,6 +556,7 @@ top: 50%;
 transform: translateY(-50%);
 cursor: pointer;
 display: inline-block;
+transition: fill var(--transition),
 
 }
 .form-input {width:100%;
@@ -565,7 +566,7 @@ cursor: pointer;
 outline: none;
 border: 1px solid var(--input-border-color);
 padding-left: 42px;
-
+transition:border-color var(--transition);
 
 }
 .input-wrap {position: relative;
