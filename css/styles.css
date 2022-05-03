@@ -556,7 +556,7 @@ top: 50%;
 transform: translateY(-50%);
 cursor: pointer;
 display: inline-block;
-transition: fill var(--transition),
+transition: fill var(--transition);
 
 }
 .form-input {width:100%;
