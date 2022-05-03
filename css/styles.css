@@ -518,7 +518,17 @@ text-align: center;
  margin-bottom: 12px;
 }
 
+.input-wrap:focus,
+.input-wrap:hover {
+    fill: var(--accent-color);
+    transition: fill var(--transition);
+}
 
+.form-input:focus,
+.form-input:hover {
+    border-color: var(--accent-color);
+    transition: color var(--transition);
+}
 .modal-close { width: 30px;
 background-color:var(--first-color);
 height: 30px;
@@ -534,8 +544,7 @@ right:8px;
 .modal-close:hover, .modal-close:focus {fill: var(--accent-color);
 transition: fill var(--transition);}
 
-.input-wrap:focus-within, .input-wrap:hover {fill: var(--accent-color); transition: fill var(--transition); }
-.form-input:focus-within, .form-input:hover {border-color:var(--accent-color);transition: color var(--transition);}
+
 
     
 .input-icon {width:18px;
