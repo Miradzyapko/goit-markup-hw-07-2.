@@ -521,13 +521,14 @@ text-align: center;
 .input-wrap:focus,
 .input-wrap:hover {
     fill: var(--accent-color);
-    transition: fill var(--transition);
+    transition: fill var(--transition), border-color var(--transition);
 }
 
 .form-input:focus,
 .form-input:hover {
     border-color: var(--accent-color);
-    transition: color var(--transition);
+    transition: fill var(--transition),border-color var(--transition);
+
 }
 .modal-close { width: 30px;
 background-color:var(--first-color);
