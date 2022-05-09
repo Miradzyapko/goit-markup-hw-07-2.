@@ -45,13 +45,7 @@ margin: 0;}
     text-decoration: none ;}
 .list {list-style: none;}
 
-.logo {color:var(--accent-color);
-font-family: "Raleway";
-font-size: 26px;
-font-weight: 700;
-line-height: 1.17;
-display: block;
-}
+
 .header {
 border:1px solid var(--color-border-bottom-header);
 }

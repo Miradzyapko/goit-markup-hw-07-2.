@@ -1,0 +1,41 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+line-height: 1.71;
+letter-spacing:  0.03em;
+color: var(--color-primery);
+}
+p, h1,h2,h3 {margin: 0;}
+ul  {padding: 0;
+margin: 0;}
+
+    img {display: block;
+    max-width: 100%;
+    height: auto;}
+
+.link { color: inherit;
+    text-decoration: none ;}
+.list {list-style: none;}
+.card-set {display: flex;
+    flex-wrap: wrap;
+    margin-left:-30px;
+    margin-top:-30px;  
+    }
+    
+        .item {margin-left: 30px;
+            margin-top: 30px;}
+            
+            .section {padding-top: 94px;
+                padding-bottom: 94px;}
+                .current::after {content: "";
+                    width: 100%;
+                    height: 4px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    border-radius: 2px;
+                    background-color: var(--accent-color);}
+                    
+                    .current {color: var(--accent-color);
+                    position: relative;}
+                               
