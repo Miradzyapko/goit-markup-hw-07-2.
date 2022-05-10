@@ -7,7 +7,7 @@
         "../sass/base/_common.scss",
         "../sass/base/_container.scss",
         "../sass/utils/_visually-hidden.scss",
-        "../sass/components/_modal-window.scss",
+        "../sass/components/_modal.scss",
         "../sass/components/_buttons.scss",
         "../sass/layout/_header.scss",
         "../sass/layout/_hero.scss",
