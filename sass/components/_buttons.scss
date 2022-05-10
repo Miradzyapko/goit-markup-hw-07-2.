@@ -10,13 +10,12 @@ button {font-family:inherit;
     .button-item {display: inline-block;
     }
     .button-item:not(:last-child) {margin-right: 8px;}
-    .button-accent:hover, .button-accent:focus {color:var(--btn-color);
-    background-color: var(--accent-color);
     
     
     
     
-    }
+    
+    
     
     .button-accent { background-color:  var(--bg-btn-color-primary);
      color: var(--btn-color);
@@ -31,6 +30,8 @@ button {font-family:inherit;
     border-radius: 4px;
     min-width: 200px;
     }
+    .button-accent:hover, .button-accent:focus {color:var(--btn-color);
+        background-color: var(--accent-color);}
     .button-input { width: 200px;
         height: 50px;
         font-size: 16px;

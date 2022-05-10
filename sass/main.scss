@@ -3,18 +3,20 @@
 @import "./base/common";
 @import "./base/container";
 @import "./utils/visually-hidden";
-@import "./components/modal";
+
 
 @import "./components/buttons";
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/about";
-@import "./layout/portfolio-gallery";
+
 @import "./layout/work";
 @import "./layout/team";
-@import "./layout/footer";
+@import "./layout/portfolio-gallery";
 @import "./layout/input";
 @import "./layout/clients";
 @import "./components/social-icon";
 @import "./layout/future";
+@import "./layout/footer";
 @import "./components/logo";
+@import "./layout/modal";

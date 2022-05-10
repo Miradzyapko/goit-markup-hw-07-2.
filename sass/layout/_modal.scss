@@ -5,10 +5,8 @@
     background-color: rgba(157, 164,189, 0.62) ;
     transition: opacity var(--transition),
     visibility var(--transition);
+    }
     
-    }
-    .backdrop.is-hidden .modal {transform: translate(-50%, -50%) scale(0); 
-    }
     .modal {width: 528px;
     height: 581px; 
     background-color: var(--first-color);
@@ -22,6 +20,8 @@
     
     
     }
+    .backdrop.is-hidden .modal {transform: translate(-50%, -50%) scale(0); 
+    }   
     .modal-title {font-size: 20px;
     font-weight: 700;
     line-height:1.17;
@@ -45,10 +45,9 @@
         .modal-close:hover, .modal-close:focus {fill: var(--accent-color);
         transition: fill var(--transition);}
         .modal-btn {margin: 0 auto;
-
             display: block;
             
             }
             
             .modal-btn:hover, .modal-btn:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);}   
-               
+            
